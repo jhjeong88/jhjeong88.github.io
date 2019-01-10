@@ -1,0 +1,17 @@
+---
+layout: default
+title: about.js
+---
+
+{% for post in site.posts %}
+{%- if post.categories contains 'javascript' -%}
+	<div class="mb-4" style="width: 100%;">
+		<h6 class="subtitle">{% for category in post.categories %} {{ category }} {% endfor %}</h6>
+		<h5 class="title mb-0"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h5>
+		<div class="preview">{{ post.content }}</div>
+		<h6 class="post-date">{{ post.date | date_to_string }} by Ji</h6>
+	</div>
+{%- endif -%}
+{% endfor %}
+
+

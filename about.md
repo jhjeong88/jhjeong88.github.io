@@ -3,4 +3,6 @@ layout: page
 title: About
 permalink: /about/
 ---
-Javascript에 관한 모든 것! 공부한 내용을 공유하는 블로그입니다.
+Javascript 스터디 블로그!
+<p>github: <a href="https://github.com/jhjeong88">github.com/jhjeong88</a>.</p>
+<p>email:<a href="mailto:jhjeong0316@gmail.com">jhjeong0316@gmail.com</a> </p>
